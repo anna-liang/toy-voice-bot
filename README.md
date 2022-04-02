@@ -1,4 +1,10 @@
 # Department of Thinking Machines Chatbot Challenge
+
+## Note
+This was a project for the technical interview portion for [Replicant](https://www.replicant.ai/). My instructions and objectives are outlined below. My contribution to the toy voice bot is mainly the Movie Guessing Game functionality. The bot fetches a random movie from IMDB and asks the user to guess the movie based on hints provided. I also restructured the project's architecture by moving the states and the FSM outside of the `index.ts` file. On top of that, I made ease-of-use changes including case insensitivity and displaying choices upon entering a menu.
+
+## Introduction
+
 For the **Chatbot Challenge**, we'd like you to carve a few hours out of your day to make some improvements to a toy chatbot.
 
 You have **7 days**, but *don't feel the need to spend more than 10 hours on it. If you find yourself spending more time, send us an email and we will be happy to answer any questions.*
